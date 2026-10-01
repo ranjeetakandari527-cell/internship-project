@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+<div id="header">
+<div class="container">
+    <nav>
+        <img src="Images/logo1.jpeg" class="logo">
+        <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </ul>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </nav>
+    <div class="header-text">
+        <p> UI/UX Designer
+            <h1>Hi,I'm <span>Ranjeeta</span> <br> form India </h1>
+        </p>
+    </div>
+</div>
+</div>
+
+
+
+<!-----------About me section-------------->
+
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+        <div class="about-col-1">
+            <img src="Images/img2.jpeg">
+        </div>
+
+        <div class="about-col-2">
+        <h1 class="sub-title">About me</h1>
+        <p>Hello! I’m Ranjeeta, a passionate and motivated BCA student with an interest in web development and technology. 
+        I enjoy creating clean, responsive, and user-friendly websites using HTML, CSS, JavaScript, and other web technologies.
+I’m continuously learning new skills and improving my programming knowledge. My goal is to build creative digital projects and grow as a professional in the IT industry.
+I believe in learning by doing, solving problems, and turning ideas into real-world projects.</p>
+
+
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')"> Skills</p>
+    <p class="tab-links" onclick="opentab('experience')"> Experience</p>
+    <p class="tab-links" onclick="opentab('education')"> Education</p>
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span> UI/UX</span><br> Desining web/App interfaces</li>
+        <li><span>Web Devlopment</span><br> Desining web/App interfaces</li>
+            <li><span> App Devlopment</span><br> Building Android/iOS apps</li>
+    </ul>
+
+
+</div>
+<div class="tab-contents" id="experience">
+    <ul>
+        <li><span>2021-current</span><br> UI/UX desiningf Traning at et institute</li>
+        <li><span>2019-2021</span><br>Team lead at star Aap LLC</li>
+            <li><span> 2017-2019</span><br> intership at ekart eCommerce</li>
+    </ul>
+</div>
+
+
+<div class="tab-contents" id="education">
+    <ul>
+        <li><span> UI/UX</span><br> Desining web/App interfaces</li>
+        <li><span>Web Devlopment</span><br> Desining web/App interfaces</li>
+            <li><span> App Devlopment</span><br> Building Android/iOS apps</li>
+    </ul>
+</div>
+
+
+        </div>
+        </div>
+    </div>
+
+</div>
+<!-----------services section------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+
+            <div>
+        <i class="fa-mosaic fa-solid fa-code"></i>
+                <h2>Web desining</h2>
+                <p>I provide creative and user-friendly digital
+                    solutions with a focus on clean design, responsive layouts, and modern web technologies. </p>
+                    <a href="#">Learn more</a>
+            </div>
+
+
+            <div>
+                <i class="fa-sharp fa-solid fa-crop"></i>
+                <h2>UI/UX desining</h2>
+                <p>I provide creative and user-friendly digital 
+                solutions with a focus on clean design, responsive
+                layouts, and modern web technologies. </p>
+                <a href="#">Learn more</a>
+            </div>
+
+
+            <div>
+                <i class="fa-brands fa-app-store-ios"></i>
+                <h2>App desining</h2>
+                <p>I provide creative and user-friendly digital
+                    solutions with a focus on clean design, responsive layouts, and modern web technologies. </p>
+                    <a href="#">Learn more</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+
+<!---------portfolio--------->
+
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="Images/img3.jpeg">
+                <div class="layer">
+                    <h3> Social Media App</h3>
+                    <p>Connect with me on my social media platforms and explore my work, projects,  skills, and creative content.</p>
+        <a href="#"><i class="fa-solid fa-link"></i></i>  </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/img4.jpeg">
+                <div class="layer">
+                    <h3>Music app</h3>
+                    <p>Connect with me on my social
+            media platforms and explore my work, projects,
+            skills, and creative content.</p>
+            <a href="#"><i class="fa-solid fa-link"></i></i>  </a>
+                </div>
+            </div>
+
+            <div class="work">
+                <img src="Images/img5.jpeg">
+            <div class="layer">
+                    <h3> Online shoping aap</h3>
+                    <p>Connect with me on my social media platforms and explore my work, projects,
+skills, and creative content.</p>
+    <a href="#"><i class="fa-solid fa-link"></i></i>  </a>
+                </div>
+            </div>
+        </div>
+
+<a href="#" class="btn"> See More</a>
+    </div>
+</div>
+<!---------contact---------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><i class="fa-regular fa-envelope"></i>ranjeetakandari@.com</p>
+                <p><i class="fa-solid fa-phone"></i>8923618482</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/1DTV5zqGeY/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/ranjeeta_kandari_80?stkn=OGR0cWQ5dDI3ODln"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="https://in.linkedin.com/in/ranjeeta-kandari-01393a33a"><i class="fa-brands fa-linkedin"></i></a> <a href="https://twitter.com/ranjeeta_kandari"><i class="fa-brands fa-square-twitter"></i></a>
+                </div>
+                <a href="Images/ranjuCV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2" >Submit</button>
+
+                </form>
+<span id="msg"></span>
+            </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright Ranjeeta.made with <i class="fa-regular fa-heart"></i> by easy tutorials</p>
+        </div>
+</div>
+
+
+
+
+
+
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents =  document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+        for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+    
+    var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px";
+        }
+    </script>
+    <script>
+	const scriptURL = 'https://script.google.com/macros/s/AKfycbwFa2Fy5Mz88hX9HPfGUePz1HwZgX6691dY8l164DGIUW1J-ExVEq2X_boHaNbi38TW/exec'
+	const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+
+	form.addEventListener('submit', e => {
+		e.preventDefault()
+		fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+			.then(response => response.text())
+			.then(response => {
+                msg.innerHTML = "message sent successfully"
+                setTimeout(function(){ msg.innerHTML =" " },3000);
+                form.reset()
+            })
+			.catch(error => console.error('Error!', error.message))
+	})
+</script>
+</body>
+</html>
